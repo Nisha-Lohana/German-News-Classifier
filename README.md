@@ -148,4 +148,7 @@ This project demonstrates the use of Natural Language Processing and Machine Lea
 - Integration of deep learning models such as LSTM or BERT  
 - Real-time news classification  
 - Improved UI/UX dashboard  
-- Deployment on cloud platforms  
+- Deployment on cloud platforms
+
+## Note:
+Due to GitHub's file size limit, trained model (.pkl) files are not included in this repository.
