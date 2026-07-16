@@ -49,25 +49,25 @@ The system uses Natural Language Processing (NLP) techniques along with TF-IDF f
 
 ### German News Classification
 
-![German News Classification](images/german news classification.png)
+![German News Classification](images/german_news_classification.png)
 
 ---
 
 ### Text Input Interface
 
-![Text Input](images/text input.png)
+![Text Input](images/text_input.png)
 
 ---
 
 ### Text Input Results
 
-![Text Input Results](images/text input results.png)
+![Text Input Results](images/text_input_results.png)
 
 ---
 
 ### Voice Input Results
 
-![Voice Input Results](images/voice input results.png)
+![Voice Input Results](images/voice_input_results.png)
 
 ---
 
