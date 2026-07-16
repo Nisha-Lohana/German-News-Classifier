@@ -67,13 +67,13 @@ The system uses Natural Language Processing (NLP) techniques along with TF-IDF f
 
 ### Voice Input 
 
-![Voice Input Results](images/voice_input_results.png)
+![Results](images/Results.png)
 
 ---
 
 ### Voice Input Results
 
-![Results](images/Results.png)
+![Voice Input Results](images/voice_input_results.png)
 
 ---
 
