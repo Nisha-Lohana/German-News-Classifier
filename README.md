@@ -43,32 +43,55 @@ The system uses Natural Language Processing (NLP) techniques along with TF-IDF f
 
 ### Streamlit Application
 
-![Streamlit App](images/streamlit.png)
+![Streamlit Application](images/streamlit.png)
+
+---
 
 ### German News Classification
 
 ![German News Classification](images/german news classification.png)
 
+---
+
+### Text Input Interface
+
+![Text Input](images/text input.png)
+
+---
+
 ### Text Input Results
 
 ![Text Input Results](images/text input results.png)
+
+---
+
+### Voice Input Results
+
+![Voice Input Results](images/voice input results.png)
+
+---
 
 ### Final Results
 
 ![Results](images/Results.png)
 
+---
+
 ### Accuracy Comparison Chart
 
 ![Accuracy Chart](images/accuracy_chart.png)
+
+---
 
 ### F1 Score Comparison Chart
 
 ![F1 Score Chart](images/f1_chart.png)
 
+---
+
 ### Confusion Matrix
 
 ![Confusion Matrix](images/confusion_matrix.png)
-
 ---
 
 ## Project Structure
