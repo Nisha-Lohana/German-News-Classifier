@@ -1,0 +1,243 @@
+GERMAN NEWS ARTICLE CLASSIFICATION REPORT
+
+Total Articles: 9245
+Total Categories: 9
+
+Category Wise Count:
+
+Panorama : 1510
+Web : 1509
+International : 1360
+Wirtschaft : 1270
+Sport : 1081
+Inland : 913
+Etat : 601
+Wissenschaft : 516
+Kultur : 485
+
+
+================================================================================
+Logistic Regression
+================================================================================
+Accuracy: 0.8194
+Precision: 0.8286
+Recall: 0.8194
+F1 Score: 0.8195
+
+               precision    recall  f1-score   support
+
+         Etat       0.99      0.60      0.75       120
+       Inland       0.77      0.78      0.77       183
+International       0.80      0.83      0.81       272
+       Kultur       0.86      0.79      0.82        97
+     Panorama       0.74      0.81      0.77       302
+        Sport       1.00      0.95      0.97       216
+          Web       0.87      0.89      0.88       302
+   Wirtschaft       0.71      0.81      0.76       254
+ Wissenschaft       0.88      0.70      0.78       103
+
+     accuracy                           0.82      1849
+    macro avg       0.85      0.80      0.81      1849
+ weighted avg       0.83      0.82      0.82      1849
+
+
+================================================================================
+Naive Bayes
+================================================================================
+Accuracy: 0.7382
+Precision: 0.7793
+Recall: 0.7382
+F1 Score: 0.7205
+
+               precision    recall  f1-score   support
+
+         Etat       1.00      0.25      0.40       120
+       Inland       0.74      0.67      0.70       183
+International       0.81      0.82      0.81       272
+       Kultur       0.93      0.26      0.40        97
+     Panorama       0.62      0.86      0.72       302
+        Sport       0.97      0.92      0.95       216
+          Web       0.69      0.88      0.77       302
+   Wirtschaft       0.67      0.80      0.73       254
+ Wissenschaft       0.97      0.37      0.54       103
+
+     accuracy                           0.74      1849
+    macro avg       0.82      0.65      0.67      1849
+ weighted avg       0.78      0.74      0.72      1849
+
+
+================================================================================
+SVM
+================================================================================
+Accuracy: 0.8221
+Precision: 0.8260
+Recall: 0.8221
+F1 Score: 0.8223
+
+               precision    recall  f1-score   support
+
+         Etat       0.91      0.67      0.77       120
+       Inland       0.75      0.80      0.77       183
+International       0.79      0.84      0.81       272
+       Kultur       0.78      0.81      0.80        97
+     Panorama       0.77      0.77      0.77       302
+        Sport       0.99      0.97      0.98       216
+          Web       0.89      0.88      0.89       302
+   Wirtschaft       0.73      0.78      0.76       254
+ Wissenschaft       0.86      0.76      0.80       103
+
+     accuracy                           0.82      1849
+    macro avg       0.83      0.81      0.82      1849
+ weighted avg       0.83      0.82      0.82      1849
+
+
+================================================================================
+Decision Tree
+================================================================================
+Accuracy: 0.5565
+Precision: 0.5555
+Recall: 0.5565
+F1 Score: 0.5557
+
+               precision    recall  f1-score   support
+
+         Etat       0.42      0.40      0.41       120
+       Inland       0.46      0.45      0.45       183
+International       0.61      0.57      0.59       272
+       Kultur       0.44      0.40      0.42        97
+     Panorama       0.49      0.49      0.49       302
+        Sport       0.71      0.73      0.72       216
+          Web       0.68      0.69      0.68       302
+   Wirtschaft       0.48      0.50      0.49       254
+ Wissenschaft       0.53      0.60      0.56       103
+
+     accuracy                           0.56      1849
+    macro avg       0.54      0.54      0.54      1849
+ weighted avg       0.56      0.56      0.56      1849
+
+
+================================================================================
+KNN
+================================================================================
+Accuracy: 0.7182
+Precision: 0.7552
+Recall: 0.7182
+F1 Score: 0.7248
+
+               precision    recall  f1-score   support
+
+         Etat       0.68      0.65      0.66       120
+       Inland       0.43      0.87      0.58       183
+International       0.74      0.78      0.76       272
+       Kultur       0.78      0.55      0.64        97
+     Panorama       0.72      0.63      0.67       302
+        Sport       0.94      0.87      0.90       216
+          Web       0.87      0.76      0.81       302
+   Wirtschaft       0.75      0.65      0.69       254
+ Wissenschaft       0.83      0.53      0.65       103
+
+     accuracy                           0.72      1849
+    macro avg       0.75      0.70      0.71      1849
+ weighted avg       0.76      0.72      0.72      1849
+
+
+================================================================================
+Random Forest
+================================================================================
+Accuracy: 0.7453
+Precision: 0.7607
+Recall: 0.7453
+F1 Score: 0.7398
+
+               precision    recall  f1-score   support
+
+         Etat       0.95      0.33      0.49       120
+       Inland       0.70      0.66      0.68       183
+International       0.74      0.80      0.77       272
+       Kultur       0.86      0.62      0.72        97
+     Panorama       0.68      0.76      0.72       302
+        Sport       0.92      0.89      0.90       216
+          Web       0.75      0.87      0.81       302
+   Wirtschaft       0.64      0.74      0.68       254
+ Wissenschaft       0.85      0.66      0.74       103
+
+     accuracy                           0.75      1849
+    macro avg       0.79      0.70      0.72      1849
+ weighted avg       0.76      0.75      0.74      1849
+
+
+================================================================================
+Gradient Boosting
+================================================================================
+Accuracy: 0.7729
+Precision: 0.7787
+Recall: 0.7729
+F1 Score: 0.7731
+
+               precision    recall  f1-score   support
+
+         Etat       0.83      0.58      0.69       120
+       Inland       0.71      0.71      0.71       183
+International       0.78      0.79      0.79       272
+       Kultur       0.85      0.68      0.75        97
+     Panorama       0.68      0.77      0.72       302
+        Sport       0.96      0.89      0.92       216
+          Web       0.82      0.85      0.83       302
+   Wirtschaft       0.69      0.74      0.72       254
+ Wissenschaft       0.79      0.74      0.76       103
+
+     accuracy                           0.77      1849
+    macro avg       0.79      0.75      0.77      1849
+ weighted avg       0.78      0.77      0.77      1849
+
+
+================================================================================
+AdaBoost
+================================================================================
+Accuracy: 0.4840
+Precision: 0.5809
+Recall: 0.4840
+F1 Score: 0.4864
+
+               precision    recall  f1-score   support
+
+         Etat       0.89      0.26      0.40       120
+       Inland       0.53      0.54      0.53       183
+International       0.30      0.79      0.44       272
+       Kultur       0.00      0.00      0.00        97
+     Panorama       0.39      0.45      0.42       302
+        Sport       1.00      0.49      0.65       216
+          Web       0.80      0.53      0.64       302
+   Wirtschaft       0.48      0.39      0.43       254
+ Wissenschaft       0.88      0.50      0.63       103
+
+     accuracy                           0.48      1849
+    macro avg       0.59      0.44      0.46      1849
+ weighted avg       0.58      0.48      0.49      1849
+
+
+================================================================================
+Extra Trees
+================================================================================
+Accuracy: 0.7696
+Precision: 0.7825
+Recall: 0.7696
+F1 Score: 0.7661
+
+               precision    recall  f1-score   support
+
+         Etat       0.96      0.40      0.56       120
+       Inland       0.72      0.66      0.69       183
+International       0.75      0.80      0.77       272
+       Kultur       0.90      0.72      0.80        97
+     Panorama       0.68      0.80      0.74       302
+        Sport       0.94      0.92      0.93       216
+          Web       0.80      0.87      0.83       302
+   Wirtschaft       0.67      0.75      0.71       254
+ Wissenschaft       0.85      0.71      0.77       103
+
+     accuracy                           0.77      1849
+    macro avg       0.81      0.74      0.76      1849
+ weighted avg       0.78      0.77      0.77      1849
+
+
